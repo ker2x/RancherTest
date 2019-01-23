@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
@@ -19,8 +19,3 @@ spec:
         image: nginx:1.7.9
         ports:
         - containerPort: 80
-      - name: ubuntu
-        image: ubuntu:bionic
-        ports:
-        - containerPort: 22
-
