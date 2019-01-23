@@ -21,3 +21,6 @@ spec:
         - containerPort: 80
       - name: ubuntu
         image: ubuntu:bionic
+        ports:
+        - containerPort: 80
+
