@@ -19,3 +19,7 @@ spec:
         image: nginx:1.7.9
         ports:
         - containerPort: 80
+      - name: ng2
+        image: nginx:latest
+        ports:
+        - containerPort: 81
